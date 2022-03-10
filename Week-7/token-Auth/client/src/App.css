@@ -1,0 +1,284 @@
+body{
+    background: url("https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EKDQI6LLD5EBVJ3J2FAL2ITIN4.png") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+nav>a{
+    border: 3px solid darkgreen;
+    border-radius: 50%;
+    width: 5%;
+    padding: 5px;
+    margin: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    font-size: larger;
+    color: crimson;
+    background-color: bisque;
+    opacity: 80%;
+}
+
+#homeScreen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    text-decoration: underline 2px;
+    color: darkgreen;
+}
+
+#postHeader{
+    text-decoration: underline 2px;
+    margin-bottom: -1px;
+    color: darkgreen;
+}
+#issuePost{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    color: darkgreen;
+}
+
+#postBttn{
+    margin: 5px;
+    border-radius: 50%;
+    color: darkgreen;
+}
+
+#postDesc{
+    margin-top: 5px;
+}
+
+#profilePost{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column; 
+    text-decoration: underline;
+    color: darkgreen;
+}
+
+.profilePosters{
+    justify-content: center;
+    align-items: center;
+    border: 2px solid darkgreen;
+    background-color: bisque;
+    border-radius: 50%;
+    padding: 5px;
+    opacity: 80%;
+}
+
+.userPost{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: darkgreen;
+}
+
+.issuePoster{
+    margin: 5px;
+    border-radius: 50%;
+    color: darkgreen;
+}
+
+.issuesFeed{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: crimson;
+}
+
+.commentBttn{
+    padding: 5px;
+    border-radius: 50%;
+    margin-bottom: 5px;
+    color: crimson;
+    
+}
+
+.voterBttn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid darkgreen;
+    background-color: bisque;
+    border-radius: 50%;
+    padding: 5px;
+    opacity: 80%;
+    
+}
+
+.voteBttn{
+    text-align: center;
+    border-radius: 50%;
+    align-items: center;
+    color: crimson;
+}
+
+.upVote{
+    margin-top: -2px;
+    margin-bottom: -10px;
+    color: darkgreen;
+}
+
+.downVote{
+    color: crimson;
+}
+
+.feedImg{
+    padding: 30px;
+    text-decoration: underline;
+    text-align: center;
+    border-radius: 50%;
+    text-size-adjust: 200px;
+    width: 180px;
+    height: auto;
+}
+
+.userName{
+    text-align: center;
+    margin-top: -30px;
+    padding-bottom: 20px;
+    color: crimson;
+}
+
+.feedText{
+    padding: -30px;
+    text-align: center;
+    text-decoration: underline;
+    margin-top: -40px;
+    color: darkgreen;
+}
+#signUpTitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    text-decoration: underline 2px;
+    margin-bottom: -1px;
+    color: darkgreen;
+}
+#signUp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    margin-bottom: 10px;
+    color: darkgreen;
+}
+#regUser{
+    margin-bottom: 5px;
+    color: darkgreen;
+}
+
+#regPass{
+    margin-bottom: 5px;
+    color: darkgreen;
+}
+
+#profImg{
+    margin-bottom: 5px;
+    width: 180px;
+    height: auto;
+}
+
+#profPostImg{
+    border-radius: 50%;
+    width: 180px;
+    height: auto;
+}
+
+#loginTitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    text-decoration: underline 2px;
+    margin-bottom: -1px;
+    color: darkgreen;
+}
+#loginUser{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    color: darkgreen;
+}
+
+#logUser{
+    margin-bottom: 5px;
+    color: darkgreen;
+}
+
+#logPass{
+    margin-bottom: 5px;
+    color: darkgreen;
+}
+
+#logBttn{
+    border-radius: 50%;
+    color: darkgreen;
+}
+
+#commentsTab{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    text-decoration: underline 2px;
+    color: darkgreen;
+}
+
+#userPosted{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    text-decoration: underline 2px;
+    color: darkgreen;
+}
+
+.postComments{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    text-decoration: underline 2px;
+    color: darkgreen;
+}
+
+#noComments{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    text-decoration: underline 2px;
+    color: darkgreen;
+}
+
+.commentsImg{
+    border-radius: 50%; 
+    width: 180px;
+    height: auto;
+}
+
+.commentsImaging{
+    border-radius: 50%;
+    width: 100px;
+    height: auto;
+}
